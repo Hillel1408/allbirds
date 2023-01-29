@@ -1,0 +1,35 @@
+.colorful{
+	cursor: default;
+	&__inner{
+		max-width: 1236px;
+		margin: 47px auto 138px auto;
+	}
+	&__title{
+		text-align: center;
+	}
+	&__subtitle{
+		@include fontText(Roboto, 16px, 400);
+		text-align: center;
+		margin-top: 18px;
+		color: #212A2F;
+	}
+	&__button{
+		text-align: center;
+		margin-top: 18px;
+	}
+	&__btn{
+		width: 180px;
+		margin: 12px;
+		background-color: #212A2F;
+		color: #FFF;
+	}
+	&__category{
+		margin-top: 119px;
+	}
+	&__block{
+		height: 542px;
+		background-image: url(../img/colorful/colorful-img.jpg);
+		background-position-x: 50%;
+    	background-size: cover;
+	}
+}

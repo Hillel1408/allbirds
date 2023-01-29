@@ -1,0 +1,32 @@
+.new-arrivals{
+	cursor: default;
+	&__inner{
+		max-width: 1236px;
+		margin: 47px auto 138px auto;
+		text-align: center;
+	}
+	&__subtitle{
+		@include fontText(Roboto, 16px, 400);
+		line-height: 24 / 16 * 100%;
+		max-width: 655px;
+		margin: 0 auto;
+		margin-top: 22px; 
+	}
+	&__btn{
+		width: 90%;
+		max-width: 384px;
+		background-color: #212A2F;
+		color: white;
+		margin-top: 26px;
+	}
+	&__category{
+		margin-top: 119px;
+		text-align: left;
+	}
+	&__block{
+		height: 542px;
+		background-image: url(../img/new-arrivals/new-arrivals-img.jpg);
+		background-position-x: 50%;
+    	background-size: cover;
+	}
+}
